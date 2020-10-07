@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>license-plan</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+       <div class="license-plan">
+          <div class="license-plan__option">
+
+              <div class="license-plan__radio">
+                  <input class="radio__input" id="radio" type="radio" name="radio" value="13">
+                  <label for="radio" class="radio__label font">license plan #1</label>
+              </div>
+              
+              <span>$13 per license</span>
+          </div>
+
+          <div class="license-plan__option">
+            <div class="license-plan__radio">
+                <input class="radio__input" id="radio" type="radio" name="radio" value="22">
+                <label for="radio" class="radio__label font">license plan #2</label>
+            </div>
+            <span>$22 per license</span>
+          </div>
+
+          <div class="license-plan__option">
+            <div class="license-plan__radio">
+                <input class="radio__input" id="radio" type="radio" name="radio" value="34">
+                <label for="radio" class="radio__label font">license plan #3</label>
+            </div>
+            <span>$34 per license</span>
+          </div>
+       </div>
+
+       <div class="numder-license">
+           <label class="numder-license__label">Number of licenses:</label>
+           <select class="numder-license__select" id="select">
+             <option value="10">10</option>
+             <option value="20">20</option>
+             <option value="30">30</option>
+           </select>
+       </div>
+
+       <div class="total">
+           <div class="total__container">
+               <label class="total__label font">total:</label>
+               <div class="total__result font"><span class="total__result_currency">us</span></div>
+           </div>
+           <button class="total__button font">Buy Now</button>
+           <span class="total__result_select"></span>
+       </div>
+   </div> 
+   <script src="./index.js"></script>
+</body>
+</html>
