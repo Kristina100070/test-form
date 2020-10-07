@@ -9,33 +9,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div class="container">
+   <form class="container">
        <div class="license-plan">
-          <div class="license-plan__option">
 
-              <div class="license-plan__radio">
-                  <input class="radio__input" id="radio" type="radio" name="radio" value="13">
-                  <label for="radio" class="radio__label font">license plan #1</label>
-              </div>
-              
-              <span>$13 per license</span>
+          <div class="license-plan__option">
+              <label class="license-plan__radio">
+                  <input class="radio__input" id="radio1" type="radio" name="radio" value="13">
+                  <span class="radio__label font">license plan #1</span>
+              </label>
+              <span class="option">$13 per license</span>
           </div>
 
           <div class="license-plan__option">
-            <div class="license-plan__radio">
-                <input class="radio__input" id="radio" type="radio" name="radio" value="22">
-                <label for="radio" class="radio__label font">license plan #2</label>
-            </div>
-            <span>$22 per license</span>
+            <label class="license-plan__radio">
+                <input class="radio__input" id="radio2" type="radio" name="radio" value="22">
+                <span class="radio__label font">license plan #2</span>
+            </label>
+            <span class="option">$22 per license</span>
           </div>
 
           <div class="license-plan__option">
-            <div class="license-plan__radio">
-                <input class="radio__input" id="radio" type="radio" name="radio" value="34">
-                <label for="radio" class="radio__label font">license plan #3</label>
-            </div>
-            <span>$34 per license</span>
+            <label class="license-plan__radio">
+                <input class="radio__input" id="radio3" type="radio" name="radio" value="34">
+                <span class="radio__label font">license plan #3</span>
+            </label>
+            <span class="option">$34 per license</span>
           </div>
+
        </div>
 
        <div class="numder-license">
@@ -52,10 +52,10 @@
                <label class="total__label font">total:</label>
                <div class="total__result font"><span class="total__result_currency">us</span></div>
            </div>
-           <button class="total__button font">Buy Now</button>
+           <button type="submit" class="total__button font">Buy Now</button>
            <span class="total__result_select"></span>
        </div>
-   </div> 
+   </form> 
    <script src="./index.js"></script>
 </body>
 </html>
